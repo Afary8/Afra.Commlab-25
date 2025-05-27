@@ -14,7 +14,7 @@ body {
 .tab-label {
   display: inline-block;
   padding: 15px 25px;
-  background: #f5e9b7;
+  background: #dfccaf;
   cursor: pointer;
   margin-right: -4px;
   border-bottom: 2px solid transparent;
@@ -22,7 +22,7 @@ body {
 }
 
 .tab-label:hover {
-  background: #f0e2a3;
+  background: #dfccaf;
 }
 
 /* Active tab highlight */
