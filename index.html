@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>test</title>
 
-    <!-- Link to CSS file -->
-<link rel="stylesheet" href="style.css">
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <div class="tabs">
+    <input type="radio" name="tab" id="tab1" checked>
+    <label for="tab1" class="tab-label">Home</label>
 
-    <!-- command and slash for this -->
-     <h1>This is a Heading</h1>
-     <h2>This is a Heading</h2>
-     <h3>This is a Heading</h3>
-     <h4>This is a Heading</h4>
-     <h5>This is a Heading</h5>
-     <h6>This is a Heading</h6>
+    <input type="radio" name="tab" id="tab2">
+    <label for="tab2" class="tab-label">About</label>
 
-    <p>This is a paragraph.</p>
+    <input type="radio" name="tab" id="tab3">
+    <label for="tab3" class="tab-label">Gallery</label>
 
-    <img src="Assignment 2/media elements /VIVI-PHOTO.jpg" alt="Description of image" width="300" height="200">
-    
-    <a href="url">link text</a>
+    <!-- Tab 1 Content -->
+    <div class="tab-content" id="content1">
+      <h1>This is a Heading</h1>
+      <h2>This is a Heading</h2>
+      <h3>This is a Heading</h3>
+      <h4>This is a Heading</h4>
+      <h5>This is a Heading</h5>
+      <h6>This is a Heading</h6>
 
+      <p>This is a paragraph.</p>
 
+      <img src="Assignment 2/media elements /VIVI-PHOTO.jpg" alt="Description of image" width="300" height="200">
+
+      <a href="url">link text</a>
+    </div>
+
+    <!-- Tab 2 Content -->
+    <div class="tab-content" id="content2">
+      <h2>About</h2>
+      <p>This is the About tab. You can add more info here later.</p>
+    </div>
+
+    <!-- Tab 3 Content -->
+    <div class="tab-content" id="content3">
+      <h2>Gallery</h2>
+      <p>This is the Gallery tab. Add images or content here.</p>
+    </div>
+  </div>
 
 </body>
 </html>
