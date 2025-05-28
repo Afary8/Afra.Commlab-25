@@ -1,26 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+/* Set background and text styles */
+body {
+  background-color: #fffdd0; /* Cream color */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  <!-- Navbar -->
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="video.html">Video</a>
-  </div>
+/* Hide radio buttons */
+.tabs input[type="radio"] {
+  display: none;
+}
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-text">
-      <h1>Welcome to My Website</h1>
-    </div>
-  </header>
+/* Tab label styles (like top menu) */
+.tab-label {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #f5e9b7;
+  cursor: pointer;
+  margin-right: -4px;
+  border-bottom: 2px solid transparent;
+  transition: background 0.3s, border-bottom 0.3s;
+}
 
-</body>
-</html>
+/* Hover effect */
+.tab-label:hover {
+  background: #f0e2a3;
+}
+
+/* Active tab label */
+#tab1:checked + .tab-label,
+#tab2:checked + .tab-label,
+#tab3:checked + .tab-label {
+  background: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #555;
+}
+
+/* Tab content styles */
+.tab-content {
+  display: none;
+  padding: 20px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+
+/* Show content for checked tab */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
