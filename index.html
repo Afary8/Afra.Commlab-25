@@ -1,70 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Architecture Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabbed Website</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="tabs">
+    <input type="radio" name="tab" id="tab1" checked>
+    <label for="tab1" class="tab-label">Home</label>
 
-<!-- Navbar -->
-<div class="navbar">
-  <a href="#home"><b>BR</b> Architects</a>
-  <div class="nav-right">
-    <a href="#projects">Projects</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </div>
-</div>
+    <input type="radio" name="tab" id="tab2">
+    <label for="tab2" class="tab-label">About</label>
 
-<!-- Header -->
-<header id="home" class="header">
-  <div class="header-text">
-    <h1><span class="bold">BR</span> Architects</h1>
-  </div>
-</header>
+    <input type="radio" name="tab" id="tab3">
+    <label for="tab3" class="tab-label">Contact</label>
 
-<!-- Main content -->
-<div class="container">
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="gallery">
-      <div><img src="/w3images/house5.jpg" alt="Summer House"><p>Summer House</p></div>
-      <div><img src="/w3images/house2.jpg" alt="Brick House"><p>Brick House</p></div>
-      <div><img src="/w3images/house3.jpg" alt="Renovated"><p>Renovated</p></div>
-      <div><img src="/w3images/house4.jpg" alt="Barn House"><p>Barn House</p></div>
+    <div class="tab-content" id="content1">
+      <h2>Welcome to My Website</h2>
+      <p>This is the home tab.</p>
     </div>
-  </section>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam...</p>
-    <div class="team">
-      <div><img src="/w3images/team2.jpg" alt="John"><h3>John Doe</h3><p>CEO & Founder</p></div>
-      <div><img src="/w3images/team1.jpg" alt="Jane"><h3>Jane Doe</h3><p>Architect</p></div>
-      <div><img src="/w3images/team3.jpg" alt="Mike"><h3>Mike Ross</h3><p>Architect</p></div>
-      <div><img src="/w3images/team4.jpg" alt="Dan"><h3>Dan Star</h3><p>Architect</p></div>
+    <div class="tab-content" id="content2">
+      <h2>About Us</h2>
+      <p>This is the about tab.</p>
     </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email us at <strong>contact@example.com</strong></p>
-    <img src="/w3images/map.jpg" alt="Map" class="map">
-  </section>
-
-</div>
-
-<!-- Footer -->
-<footer>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/">w3.css</a></p>
-</footer>
-
+    <div class="tab-content" id="content3">
+      <h2>Contact Info</h2>
+      <p>This is the contact tab.</p>
+    </div>
+  </div>
 </body>
 </html>
 
