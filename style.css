@@ -268,7 +268,7 @@ h2 {
 /* Add a background color and some padding around the form */
 .contact-form-container {
   border-radius: 5px;
-  background-color: #f2f2f2; /* Light gray background for the form */
+  background-color: #b4a389; /* Light gray background for the form */
   padding: 20px;
   max-width: 600px; /* Max width for the form */
   margin: 0 auto; /* Center the container */
