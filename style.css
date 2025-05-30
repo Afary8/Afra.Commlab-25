@@ -22,8 +22,7 @@ body {
   width: 30px; /* Adjust the width of the icon */
   height: auto; /* Maintain aspect ratio */
   vertical-align: middle; /* Align it with the text */
-  border: 1px solid red; /* Add a temporary border for debugging visibility */
-  background-color: #fff; /* Ensure it's visible on a white background */
+  background-color: #b4a389; /* Ensure it's visible on a white background */
 }
 
 
