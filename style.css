@@ -96,7 +96,7 @@ h2 {
   font-size: 36px; /* Set the font size */
   font-weight: bold; /* Make the title bold */
   color: #902e15; /* Updated color for the title */
-  margin-bottom: 20px; /* Space below the title */
+  margin-bottom: 40px; /* Space below the title */
   font-family: Arial, sans-serif;
 }
 
@@ -150,7 +150,7 @@ h2 {
   font-size: 36px; /* Same font size as the About title */
   font-weight: bold; /* Make the title bold */
   color: #902e15; /* Same color as the About title */
-  margin-bottom: 20px; /* Space below the title */
+  margin-bottom: 40px; /* Space below the title */
   font-family: Arial, sans-serif; /* Same font family as the About title */
 }
 
@@ -184,7 +184,7 @@ h2 {
   font-size: 36px; /* Same font size as the About title */
   font-weight: bold; /* Make the title bold */
   color: #902e15; /* Same color as the About title */
-  margin-bottom: 20px; /* Space below the title */
+  margin-bottom: 40px; /* Space below the title */
   font-family: Arial, sans-serif; /* Same font family as the About title */
 }
 
@@ -201,7 +201,7 @@ h2 {
   font-size: 24px; /* Slightly smaller than the title (h2) */
   font-weight: bold;
   color: #902e15; /* Same color as the About title */
-  margin-top: 20px; /* Space above the references section */
+  margin-top: 40px; /* Space above the references section */
 }
 
 /* References list */
