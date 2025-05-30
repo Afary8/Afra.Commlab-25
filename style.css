@@ -97,6 +97,7 @@ h2 {
   font-weight: bold; /* Make the title bold */
   color: #902e15; /* Updated color for the title */
   margin-bottom: 20px; /* Space below the title */
+  font-family: Arial, sans-serif;
 }
 
 /* Container for image and text */
