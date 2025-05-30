@@ -90,6 +90,14 @@ h2 {
   margin-top: 20px;
 }
 
+/* Style the title (h2) */
+#About h2 {
+  font-size: 36px; /* Set the font size */
+  font-weight: bold; /* Make the title bold */
+  color: #902e15; /* Updated color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
 /* Container for image and text */
 .about-container {
   display: flex; /* Flexbox to align items horizontally */
@@ -103,10 +111,12 @@ h2 {
   height: auto;
 }
 
+/* About text styling */
 .about-text {
   flex: 1; /* Take up remaining space for the text */
-  font-size: 16px; /* Optional: Adjust font size */
-  line-height: 1.6; /* Optional: Adjust line height for readability */
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.6; /* Adjust line height for readability */
+  color: #bf390b; /* Updated color for the text */
 }
 
 /* Gallery */
