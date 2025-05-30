@@ -22,7 +22,7 @@ body {
   width: 30px; /* Adjust the width of the icon */
   height: auto; /* Maintain aspect ratio */
   vertical-align: middle; /* Align it with the text */
-  border: 1px solid #b4a389;
+  border: 1px solid #b4a389 ;
   background-color: #b4a389; /* Ensure it's visible on a white background */
 }
 
@@ -36,6 +36,12 @@ body {
 
 .nav-right a:hover {
   text-decoration: underline;
+}
+
+/* Specifically target the Home icon link (anchor) */
+.nav-right a[href="#Home"]:hover .home-icon {
+  text-decoration: underline; /* Apply underline effect when hovering over the Home icon */
+  cursor: pointer; /* Change cursor to pointer for the icon */
 }
 
 /* New Header with Image Overlay */
