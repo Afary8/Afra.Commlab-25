@@ -119,7 +119,7 @@ h2 {
   flex: 1; /* Take up remaining space for the text */
   font-size: 18px; /* Adjust font size */
   line-height: 1.6; /* Adjust line height for readability */
-  color: #bf390b; /* Updated color for the text */
+  color: #902e15; /* Updated color for the text */
   max-width: 50%; /* Ensure the text doesn't take too much space */
   padding: 10px; /* Add padding to the text for better readability */
 }
@@ -192,7 +192,7 @@ h2 {
 #Reflection p {
   font-size: 18px; /* Same font size as the About text */
   line-height: 1.6; /* Adjust line height for readability */
-  color: #bf390b; /* Same color as the About text */
+  color: #902e15; /* Same color as the About text */
   margin-bottom: 15px; /* Add some space between paragraphs */
 }
 
@@ -207,7 +207,7 @@ h2 {
 /* References list */
 #Reflection ul {
   font-size: 16px; /* Same font size as the About text */
-  color: #bf390b; /* Same color as the About text */
+  color: #902e15; /* Same color as the About text */
   padding-left: 20px; /* Add indentation for list items */
 }
 
@@ -227,7 +227,7 @@ h2 {
 #Contact p {
   font-size: 18px; /* Same font size as the About text */
   line-height: 1.6; /* Adjust line height for readability */
-  color: #bf390b; /* Same color as the About text */
+  color: #902e15; /* Same color as the About text */
   margin-bottom: 15px; /* Add some space between paragraphs */
 }
 
