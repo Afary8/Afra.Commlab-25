@@ -214,6 +214,7 @@ h2 {
 #Reflection li {
   margin-bottom: 8px; /* Add space between list items */
 }
+
 /* Contact Section */
 #Contact {
   margin-top: 40px;
@@ -232,7 +233,7 @@ h2 {
 }
 
 /* Style inputs with type="text", type="email", and textarea */
-input[type=text], input[type=email], textarea {
+#Contact input[type=text], #Contact input[type=email], #Contact textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #b4a389; /* Gray border */
@@ -246,7 +247,7 @@ input[type=text], input[type=email], textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+#Contact input[type=submit] {
   background-color: #b4a389; /* Submit button color */
   color: #511301; /* Text color */
   padding: 12px 20px;
@@ -259,15 +260,15 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker color */
-input[type=submit]:hover {
+#Contact input[type=submit]:hover {
   background-color: #511301; /* Darker color on hover */
   color: #fff; /* Change text color to white when hovered */
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.contact-form-container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; /* Light gray background for the form */
   padding: 20px;
   max-width: 600px; /* Max width for the form */
   margin: 0 auto; /* Center the container */
@@ -275,7 +276,7 @@ input[type=submit]:hover {
 }
 
 /* Label styling */
-label {
+#Contact label {
   font-weight: bold;
   margin-bottom: 5px;
   display: block; /* Ensures the label appears on top of each input field */
@@ -288,17 +289,16 @@ label {
     padding: 15px;
   }
 
-  .container {
+  .contact-form-container {
     padding: 15px;
     max-width: 100%; /* Ensure the form is responsive on smaller screens */
   }
 
-  input[type=text], input[type=email], textarea {
+  #Contact input[type=text], #Contact input[type=email], #Contact textarea {
     font-size: 14px; /* Slightly smaller text on smaller screens */
   }
 
-  input[type=submit] {
+  #Contact input[type=submit] {
     font-size: 14px; /* Adjust submit button size for smaller screens */
   }
 }
-
