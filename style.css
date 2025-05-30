@@ -85,6 +85,30 @@ h2 {
   padding-bottom: 10px;
 }
 
+/* About Section */
+#About {
+  margin-top: 20px;
+}
+
+/* Container for image and text */
+.about-container {
+  display: flex; /* Flexbox to align items horizontally */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Ensure spacing between the image and text */
+  gap: 20px; /* Add some space between the image and text */
+}
+
+.about-image {
+  max-width: 50%; /* Ensure image doesn't take more than half the container */
+  height: auto;
+}
+
+.about-text {
+  flex: 1; /* Take up remaining space for the text */
+  font-size: 16px; /* Optional: Adjust font size */
+  line-height: 1.6; /* Optional: Adjust line height for readability */
+}
+
 /* Gallery */
 .gallery {
   display: grid;
