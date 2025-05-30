@@ -214,12 +214,13 @@ h2 {
 #Reflection li {
   margin-bottom: 8px; /* Add space between list items */
 }
-
 /* Contact Section */
 #Contact {
   margin-top: 40px;
   padding: 20px;
   background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners for the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the contact section */
 }
 
 /* Contact section title (h2) */
@@ -237,25 +238,31 @@ input[type=text], input[type=email], textarea {
   padding: 12px; /* Some padding */
   border: 1px solid #b4a389; /* Gray border */
   border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stay in place */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
   margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  margin-bottom: 16px; /* Add bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-size: 16px; /* Ensure consistent text size in the form fields */
+  background-color: #fff; /* White background for inputs */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #b4a389;
-  color: #511301;
+  background-color: #b4a389; /* Submit button color */
+  color: #511301; /* Text color */
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px; /* Set font size for the button */
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker color */
 input[type=submit]:hover {
   background-color: #511301; /* Darker color on hover */
+  color: #fff; /* Change text color to white when hovered */
 }
 
 /* Add a background color and some padding around the form */
@@ -263,8 +270,9 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  max-width: 600px; /* Make the form container width responsive */
+  max-width: 600px; /* Max width for the form */
   margin: 0 auto; /* Center the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the form container */
 }
 
 /* Label styling */
@@ -272,4 +280,26 @@ label {
   font-weight: bold;
   margin-bottom: 5px;
   display: block; /* Ensures the label appears on top of each input field */
+  color: #511301; /* Set label color to match the form's theme */
 }
+
+/* Style for responsive form */
+@media (max-width: 768px) {
+  #Contact {
+    padding: 15px;
+  }
+
+  .container {
+    padding: 15px;
+    max-width: 100%; /* Ensure the form is responsive on smaller screens */
+  }
+
+  input[type=text], input[type=email], textarea {
+    font-size: 14px; /* Slightly smaller text on smaller screens */
+  }
+
+  input[type=submit] {
+    font-size: 14px; /* Adjust submit button size for smaller screens */
+  }
+}
+
