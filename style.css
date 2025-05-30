@@ -88,6 +88,7 @@ h2 {
 /* About Section */
 #About {
   margin-top: 20px;
+  padding: 20px; /* Add padding to the section for better spacing */
 }
 
 /* Style the title (h2) */
@@ -104,19 +105,35 @@ h2 {
   align-items: center; /* Center vertically */
   justify-content: space-between; /* Ensure spacing between the image and text */
   gap: 20px; /* Add some space between the image and text */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .about-image {
   max-width: 50%; /* Ensure image doesn't take more than half the container */
   height: auto;
+  object-fit: cover; /* Ensure the image doesn't stretch */
 }
 
-/* About text styling */
 .about-text {
   flex: 1; /* Take up remaining space for the text */
-  font-size: 16px; /* Adjust font size */
+  font-size: 18px; /* Adjust font size */
   line-height: 1.6; /* Adjust line height for readability */
   color: #bf390b; /* Updated color for the text */
+  max-width: 50%; /* Ensure the text doesn't take too much space */
+  padding: 10px; /* Add padding to the text for better readability */
+}
+
+/* Make sure the text is responsive and adjusts well on smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack the image and text vertically on smaller screens */
+  }
+  .about-image {
+    max-width: 100%; /* Ensure the image takes up the full width on small screens */
+  }
+  .about-text {
+    max-width: 100%; /* Allow text to take up the full width on small screens */
+  }
 }
 
 /* Gallery */
