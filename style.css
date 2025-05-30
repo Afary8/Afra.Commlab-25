@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background: white;
+  background: #b4a389;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: #511301;
   margin-left: 15px;
   font-weight: bold;
 }
@@ -61,7 +61,7 @@ body {
 /* Text within the overlay */
 .text {
   color: #511301; 
-  font-size: 50px; 
+  font-size: 90px; 
   font-weight: bold; 
   position: absolute;
   top: 50%;
