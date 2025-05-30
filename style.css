@@ -145,6 +145,14 @@ h2 {
   margin-top: 20px;
 }
 
+/* Watch Video section title (h2) */
+#Watch h2 {
+  font-size: 36px; /* Same font size as the About title */
+  font-weight: bold; /* Make the title bold */
+  color: #902e15; /* Same color as the About title */
+  margin-bottom: 20px; /* Space below the title */
+  font-family: Arial, sans-serif; /* Same font family as the About title */
+}
 
 /* Responsive video */
 .video-container {
