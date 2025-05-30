@@ -61,7 +61,7 @@ body {
 /* Text within the overlay */
 .text {
   color: #511301; 
-  font-size: 150px; 
+  font-size: 100px; 
   font-weight: bold; 
   position: absolute;
   top: 50%;
