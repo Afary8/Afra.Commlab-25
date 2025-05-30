@@ -244,14 +244,14 @@ h2 {
 #Contact input[type=text], #Contact input[type=email], #Contact textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 1px solid #b4a389; /* Gray border */
+  border: 1px solid #b4a389; /* Border color */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Ensure padding doesn't affect the width */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Add bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   font-size: 16px; /* Ensure consistent text size in the form fields */
-  background-color: #fff; /* White background for inputs */
+  background-color: #dfccaf; /* White background for inputs */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -270,7 +270,7 @@ h2 {
 /* When moving the mouse over the submit button, add a darker color */
 #Contact input[type=submit]:hover {
   background-color: #511301; /* Darker color on hover */
-  color: #fff; /* Change text color to white when hovered */
+  color: #dfccaf; /* Change text color to white when hovered */
 }
 
 /* Add a background color and some padding around the form */
