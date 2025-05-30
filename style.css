@@ -223,6 +223,14 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the contact section */
 }
 
+/* Contact section paragraph styling */
+#Contact p {
+  font-size: 18px; /* Same font size as the About text */
+  line-height: 1.6; /* Adjust line height for readability */
+  color: #bf390b; /* Same color as the About text */
+  margin-bottom: 15px; /* Add some space between paragraphs */
+}
+
 /* Contact section title (h2) */
 #Contact h2 {
   font-size: 36px; /* Same font size as the About title */
